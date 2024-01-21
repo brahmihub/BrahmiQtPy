@@ -5,7 +5,7 @@
 <p align="center">
   <img width="800" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" src="https://github.com/brahmihub/BrahmiQtPy/assets/151893249/92df0b62-76af-46d0-949c-43b83f856106/VSCode_extension_that_Converts_qtDesign_ui_to_Python_code.jpg" alt="VSCode Extension Banner">
 </p>
-<a href="https://marketplace.visualstudio.com/items?itemName=brahmi.brahmiqtpy">Link for the extension</a>OR Search brahmiqtpy in the marketplace
+<a href="https://marketplace.visualstudio.com/items?itemName=brahmi.brahmiqtpy">Link for the extension</a> OR Search brahmiqtpy in the marketplace
 <h1>DEMO: </h1></br>
 <p align="center">
   <a href="https://github.com/brahmihub/BrahmiQtPy/assets/151893249/e8cb0da8-b98d-4f6c-adf9-0833aaad8522">
