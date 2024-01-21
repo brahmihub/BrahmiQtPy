@@ -9,4 +9,4 @@
 </p>
 <h1>DEMO: </h1></br>
 
-<h5>Don't forget to <h4>pip install pyqt5</h4> Happy coding! </h5>
+<h4>pip install pyqt5</h4>
