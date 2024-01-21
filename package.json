@@ -3,7 +3,7 @@
   "displayName": "brahmiqtpy",
   "publisher": "brahmi",
   "description": "Converts qtDesinger ui to Python code",
-  "icon": "icon.png",
+  "icon": "https://raw.githubusercontent.com/brahmihub/BrahmiQtPy/main/icon.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.85.0"
