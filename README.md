@@ -10,7 +10,8 @@
 <h1>DEMO: </h1></br>
 <p align="center">
   <a href="https://github.com/brahmihub/BrahmiQtPy/assets/151893249/cb5d925f-f383-45c9-94ba-04d8c3a4f49b">
-    <img src="https://img.shields.io/badge/Watch-Video-red" alt="Watch Video">
+    <img src="https://github.com/brahmihub/BrahmiQtPy/assets/151893249/cb5d925f-f383-45c9-94ba-04d8c3a4f49b/your-animation.gif" alt="BrahmiQtPy GIF">
   </a>
 </p>
+
 <h4>pip install pyqt5</h4>
