@@ -1,0 +1,52 @@
+{
+  "name": "brahmiqtpy",
+  "displayName": "brahmiqtpy",
+  "publisher": "brahmi",
+  "description": "Converts qtDesinger ui to Python code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "brahmiqtpy.browseFile",
+        "title": "QtDesinger"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "brahmiqtpy.browseFile",
+          "when": "editorFocus",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.85.0",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "elementtree": "^0.1.7",
+    "xml2js": "^0.6.2"
+  }
+}
