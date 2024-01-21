@@ -9,3 +9,4 @@
 </p>
 ```python
 pip install pyqt5
+```
