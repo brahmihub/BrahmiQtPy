@@ -1,12 +1,16 @@
 {
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/brahmihub/BrahmiQtPy"
+  },
   "name": "brahmiqtpy",
   "displayName": "brahmiqtpy",
   "publisher": "brahmi",
-  "description": "Converts qtDesinger ui to Python code",
+  "description": "Converts Qt Designer UI to Python code",
   "icon": "icon.png",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.44.0"
   },
   "categories": [
     "Other"
@@ -17,18 +21,10 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [
-      {
-        "command": "brahmiqtpy.browseFile",
-        "title": "QtDesinger"
-      }
+      
     ],
     "menus": {
       "editor/title": [
-        {
-          "command": "brahmiqtpy.browseFile",
-          "when": "editorFocus",
-          "group": "navigation"
-        }
       ]
     }
   },
@@ -38,16 +34,16 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/mocha": "^10.0.6",
-    "@types/node": "18.x",
-    "@types/vscode": "^1.85.0",
+    "@types/mocha": "^7.0.0",
+    "@types/node": "12.x",
+    "@types/vscode": "^1.44.0",
     "@vscode/test-cli": "^0.0.4",
     "@vscode/test-electron": "^2.3.8",
-    "eslint": "^8.56.0",
-    "typescript": "^5.3.3"
+    "eslint": "^6.8.0",
+    "typescript": "^3.5.3"
   },
   "dependencies": {
-    "elementtree": "^0.1.7",
+    "elementtree": "^0.1.6",
     "xml2js": "^0.6.2"
   }
 }
